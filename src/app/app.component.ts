@@ -6,21 +6,5 @@ import {Component} from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
-  videos = [
-    {name: 'video one', liked: true},
-    {name: 'video two', liked: false}
-  ]
-
-  isShown: boolean = true;
-
-  video = {
-    title: 'Drone footage',
-    views: 37000,
-    liked: true
-  }
-
-  handleClick() {
-    console.log('Someone clicked on button on the template')
-  }
+  pageTitle = 'Ortega Product Management';
 }
