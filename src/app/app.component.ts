@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -11,13 +11,16 @@ export class AppComponent {
     {name: 'video one', liked: true},
     {name: 'video two', liked: false}
   ]
+
+  isShown: boolean = true;
+
   video = {
     title: 'Drone footage',
     views: 37000,
     liked: true
   }
 
-  handleClick(){
+  handleClick() {
     console.log('Someone clicked on button on the template')
-              }
+  }
 }
