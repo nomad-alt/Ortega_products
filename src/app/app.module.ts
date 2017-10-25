@@ -19,6 +19,7 @@ import {StarComponent} from './shared/star.component';
     FormsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+
 })
 export class AppModule { }
